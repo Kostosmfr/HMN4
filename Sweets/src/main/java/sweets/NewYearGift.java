@@ -5,12 +5,12 @@ package sweets;
  */
 public abstract class NewYearGift {
 
-    private String nameSweets;
+    private String name;
     private double price;
     private double weight;
 
     public NewYearGift(String name, double price, double weight) {
-        setName(nameSweets);
+        setName(name);
         setPrice(price);
         setWeight(weight);
     }
@@ -24,11 +24,11 @@ public abstract class NewYearGift {
     }
 
     public String getName() {
-        return nameSweets;
+        return name;
     }
 
-    private void setName(String nameSweets) {
-        this.nameSweets = nameSweets;
+    private void setName(String name) {
+        this.name = name;
     }
 
     public double getWeight() {
