@@ -3,7 +3,7 @@ package sweets;
 /**
  * Created by K_PC-S on 05.07.2017.
  */
-public class Candy extends NewYearGift {
+public class Candy extends Sweet {
 
     private int sugar;
 
@@ -22,7 +22,7 @@ public class Candy extends NewYearGift {
 
     @Override
     public String toString() {
-        return super.toString() + ", Colories = " + getSugar();
+        return super.toString() + ", Sugar = " + getSugar();
 
     }
 }

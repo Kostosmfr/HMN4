@@ -3,7 +3,7 @@ package sweets;
 /**
  * Created by K_PC-S on 05.07.2017.
  */
-public class Chocolate extends NewYearGift {
+public class Chocolate extends Sweet {
 
     private int colories;
 

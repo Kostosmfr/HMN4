@@ -3,7 +3,7 @@ package sweets;
 /**
  * Created by K_PC-S on 05.07.2017.
  */
-public class Cake extends NewYearGift {
+public class Cake extends Sweet {
     private String firm;
 
     public Cake(String nameSweets, double price, double weight, String firm) {
@@ -21,7 +21,7 @@ public class Cake extends NewYearGift {
 
     @Override
     public String toString() {
-        return super.toString() + ", Colories = " + getFirm();
+        return super.toString() + ", Firm = " + getFirm();
 
     }
 }

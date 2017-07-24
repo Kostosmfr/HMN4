@@ -7,30 +7,28 @@ import java.io.PrintStream;
  */
 public class Base {
     public static void main(String[] args) {
-        //Для удобства выводим индексы массива
-        System.out.println("Индексы массива");
-        for(int i = 0; i<20;i++){//Так не хорошо делать
-            System.out.printf("0%-2s%1s", i, "");
-        }
 
         //Проверка работы с одним объектом
-
-        Generate g = new Generate();
+       /* Generate g = new Generate();
         g.genarationRandomArray();
-        g.getArray();
-        g.swapMinMaxInArray();
-        g.getArray();
-
+        g.getArrayString();
+        g.swapArrayElements(g.getArray(),g.getIndexOfMaxNegativeElement(g.getArray()),
+                g.getIndexOfMinPositiveElement(g.getArray()));
+        g.getArrayString();
+*/
         //Проверка работы с массивом объектов
-        /*
+
         Generate[] gArray = new Generate[5];
         for(int i = 0; i < gArray.length;i++){
             gArray[i] = new Generate();
             gArray[i].genarationRandomArray();
-            gArray[i].getClass();
-            gArray[i].swapMinMaxInArray();
-            gArray[i].getArray();
+            gArray[i].getArrayString();
+            gArray[i].swapArrayElements(gArray[i].getArray(),gArray[i].getIndexOfMaxNegativeElement(gArray[i].getArray()),
+                    gArray[i] .getIndexOfMinPositiveElement(gArray[i].getArray()));
+            gArray[i].getArrayString();
         }
-        */
+
+
+
     }
 }
