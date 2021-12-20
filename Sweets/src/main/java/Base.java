@@ -30,6 +30,7 @@ public class Base {
             } else System.out.print(sw[i].getName() + ", ");
         }
         System.out.printf("\nTotal weight of the gift %.2f%n", totalWeight);
+        System.out.printf("\nTotal weight of the gift %.2f%n", totalWeight);
         System.out.printf("Total amount of the gift %.2f%n", totalPrice);
         //норм комент
 
