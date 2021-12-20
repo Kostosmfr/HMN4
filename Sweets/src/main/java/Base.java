@@ -32,6 +32,8 @@ public class Base {
         System.out.printf("\nTotal weight of the gift %.2f%n", totalWeight);
         System.out.printf("Total amount of the gift %.2f%n", totalPrice);
         //норм комент
+
+        //это в обратку
         
     }
 }
